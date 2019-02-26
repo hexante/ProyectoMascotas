@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RegistroUsuario"></activity>
+        <activity android:name=".OlvidoContrasena"></activity>
+        <activity android:name=".RegitroFundacion" />
+        <activity android:name=".RegistroUsuario" />
         <activity android:name=".IngresoUsuario" />
         <activity android:name=".MainActivity">
             <intent-filter>
