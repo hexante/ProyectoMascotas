@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ProyectoMascota</string>
+    <string name="facebook_app_id">361844187988613</string> <string name="fb_login_protocol_scheme">fb361844187988613</string>
 </resources>
