@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
 
         Usuario = (Button) findViewById(R.id.IngresoU);
         Fundacion = (Button) findViewById(R.id.IngresoF);
-        usuario = false;
-        fundacion = false;
+      //  usuario = false;
+      //  fundacion = false;
 
 
         Usuario.setOnClickListener(new View.OnClickListener() {
@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 usuario = true;
                 Intent IngreoUsuario = new Intent(getApplicationContext(), IngresoUsuario.class);
-                IngreoUsuario.putExtra("usuario",usuario);
-                IngreoUsuario.putExtra("fundacion",fundacion);
+               // IngreoUsuario.putExtra("usuario",usuario);
+              //  IngreoUsuario.putExtra("fundacion",fundacion);
                 startActivity(IngreoUsuario);
 
             }
@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 fundacion = true;
                 Intent IngreoFundacion = new Intent(getApplicationContext(), IngresoUsuario.class);
-                IngreoFundacion.putExtra("usuario",usuario);
-                IngreoFundacion.putExtra("fundacion",fundacion);
+              //  IngreoFundacion.putExtra("usuario",usuario);
+             //   IngreoFundacion.putExtra("fundacion",fundacion);
                 startActivity(IngreoFundacion);
 
             }
