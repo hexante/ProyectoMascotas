@@ -28,6 +28,10 @@
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
+        <meta-data android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled"
+            android:value="false"/>
+        <meta-data android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled"
+            android:value="false"/>
 
         <activity
             android:name="com.facebook.FacebookActivity"
@@ -47,4 +51,7 @@
         </activity>
     </application>
 
-</manifest>
+
+
+
+    </manifest>

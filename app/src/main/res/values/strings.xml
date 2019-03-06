@@ -3,4 +3,8 @@
     <string name="facebook_app_id">361844187988613</string>
     <string name="fb_login_protocol_scheme">fb361844187988613</string>
     <string name="bienvenido_usuario">Bienvenido Usuario</string>
+    <string name="enter_email">Ingresa un email</string>
+    <string name="enter_password">Ingresa una contraseña</string>
+    <string name="registrar">Registrar usuario</string>
+
 </resources>
